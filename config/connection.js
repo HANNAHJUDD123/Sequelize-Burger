@@ -7,13 +7,16 @@ if (process.env.JAWSDB_URL) {
 	connection = mysql.createConnection(process.env.JAWSDB_URL);
 }	else {
 	connection = mysql.createConnection({
-		port: 3306,
-		host: 'localhost',
-		user: 'root',
-		password: 'root',
-        database:'burgers_db',
-        socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock"
-        
+		// port: 3306,  
+		// host: 'localhost',
+		// user: 'root',
+		// password: 'root',
+        // database:'burgers_db',
+        // socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock"
+		Host:	fugfonv8odxxolj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com,	
+		Username:	ybjjtb3lfn658phl,	
+		Password:	txbmb192t7bv7h9k,	
+		Port:	3306
         
 	});	
 }
